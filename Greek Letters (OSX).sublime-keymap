@@ -1,0 +1,131 @@
+[
+	// Key binds for Greek letters in LaTeX
+	{ "keys": ["alt+a"],
+	  "command": "insert",
+	  "args": { "characters": "\\alpha"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+b"],
+	  "command": "insert",
+	  "args": { "characters": "\\beta"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+c"],
+	  "command": "insert",
+	  "args": { "characters": "\\chi"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+d"],
+	  "command": "insert",
+	  "args": { "characters": "\\delta"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	// "alt + e" is to input foreign accent. To override it, we have
+	// to create a separate keymap file, which will not be easy to
+	// maintain. So I let "alt+w" to input \varepsilon.
+	{ "keys": ["alt+f"],
+	  "command": "insert",
+	  "args": { "characters": "\\phi"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+g"],
+	  "command": "insert",
+	  "args": { "characters": "\\gamma"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+h"],
+	  "command": "insert",
+	  "args": { "characters": "\\eta"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+i"],
+	  "command": "insert",
+	  "args": { "characters": "\\iota"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+j"],
+	  "command": "insert",
+	  "args": { "characters": "\\varphi"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+k"],
+	  "command": "insert",
+	  "args": { "characters": "\\kappa"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+l"],
+	  "command": "insert",
+	  "args": { "characters": "\\lambda"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+m"],
+	  "command": "insert",
+	  "args": { "characters": "\\mu"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+n"],
+	  "command": "insert",
+	  "args": { "characters": "\\nu"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+o"],
+	  "command": "insert",
+	  "args": { "characters": "\\omega"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+p"],
+	  "command": "insert",
+	  "args": { "characters": "\\pi"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+q"],
+	  "command": "insert",
+	  "args": { "characters": "\\vartheta"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+r"],
+	  "command": "insert",
+	  "args": { "characters": "\\rho"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+s"],
+	  "command": "insert",
+	  "args": { "characters": "\\sigma"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+t"],
+	  "command": "insert",
+	  "args": { "characters": "\\tau"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+u"],
+	  "command": "insert",
+	  "args": { "characters": "\\upsilon"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+v"],
+	  "command": "insert",
+	  "args": { "characters": "\\theta"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+w"],
+	  "command": "insert",
+	  "args": { "characters": "\\varepsilon"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+x"],
+	  "command": "insert",
+	  "args": { "characters": "\\xi"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+y"],
+	  "command": "insert",
+	  "args": { "characters": "\\psi"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	},
+	{ "keys": ["alt+z"],
+	  "command": "insert",
+	  "args": { "characters": "\\zeta"},
+	  "context":[{ "key": "selector", "operator": "equal", "operand": "text.tex.latex" } ]
+	}
+]
